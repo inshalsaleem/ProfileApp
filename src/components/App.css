@@ -1,0 +1,66 @@
+p{
+    font-size: medium;
+    display: inline;
+}
+
+h3{
+    font-size: medium;
+    display: inline;
+}
+
+.name{
+    float: left;
+}
+
+.phone{
+    float: right;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li p {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li p:hover {
+    background-color: #111;
+  }
+
+  .Profile {
+    float: left;
+    margin-top: 4%;
+    margin-left: 4%;
+    margin-right: 4%;
+    width: 50%;
+  }
+
+  .userData {
+      display: block;
+      padding: 5%;
+  }
+
+  .responseData{
+      margin-left: 2%;
+  }
+
+  img{
+    margin-top: 6%;
+    margin-left: 8%;
+    display: inline;
+    width: 300px;
+    height: 300px;
+  }
